@@ -2,9 +2,10 @@
 
 from Poster import post
 from csvParser import csvParser
+from Settings import filename
 
 def main():
-    data = csvParser("basicCsv.csv")
+    data = csvParser(filename)
     post(data)
 
 if __name__ == "__main__":

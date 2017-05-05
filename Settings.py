@@ -1,6 +1,6 @@
 from datetime import datetime
 
-url = "http://requestb.in/u3d3rju3"
+url = "http://requestb.in/1glkpgs1"
 
 filename = 'basicCsv.csv'
 
@@ -19,12 +19,3 @@ jsonString = {
         "Last Name":""
     }
 }
-
-# {
-#     "__trigger": {
-#         "Booking": {
-#             "Booking Reference": ""
-#         },
-#         "startedAt": time
-#     }
-# }
